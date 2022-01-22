@@ -77,7 +77,7 @@ namespace TimDuongDiNganNhat
         }
         public List<int> TimDuong(int diemDau, int diemCuoi) //Tìm đường đi giữa đi hai điểm truyền vào.
         {
-            Init();
+            Init(); //Hàm khởi tạo giá trị ban đầu cho các thuộc tính.
 
             diemDau--;
             diemCuoi--;
@@ -124,7 +124,7 @@ namespace TimDuongDiNganNhat
 
                 int soLuongThem = TimDiemKe(timDuong.diemDaDi[timDuong.diemDaDi.Count - 1]).Count;
                 for (int i = 0; i < soLuongThem - 1; i++)
-                {
+                { 
                     DuongDi ddn = new DuongDi();
                     foreach (int item in timDuong.diemDaDi) ddn.diemDaDi.Add(item);
 
