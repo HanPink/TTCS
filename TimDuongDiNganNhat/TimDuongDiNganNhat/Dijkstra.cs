@@ -18,13 +18,8 @@ namespace TimDuongDiNganNhat
         int diemCuoi { get; set; } //Lưu điểm cần tới.
 
         private PointF[] dsve;
-        private int[] khoangcach;
         private int[] Truoc;
 
-        public int[] KhoangCach
-        {
-            get { return khoangcach; }
-        }
         public PointF[] ViTriVe
         {
             get { return dsve; }
@@ -320,21 +315,26 @@ namespace TimDuongDiNganNhat
 
             }
 
-
-
             kq = Line(kq);
             return kq;
         }
-        public Bitmap DuongDiPic(int bd, int kt, Image anh)
+
+
+        public Bitmap DuongDiPic(int bd, int kt, Image anh, Dijkstra td)
         {
             Bitmap a = new Bitmap(anh);
-            int i = Truoc[kt];
-            a = LineTo(dsve[kt], dsve[Truoc[kt]], a, duLieu[kt, Truoc[kt]], Color.Red);
-            while (i != bd)
+            List<int> kqs = td.TimDuong(bd, kt);
+            for (int j = 0; j < kqs.Count; j++)
             {
-                a = LineTo(dsve[i], new PointF(dsve[Truoc[i]].X, dsve[Truoc[i]].Y), a, duLieu[i, Truoc[i]], Color.Red);
-                i = Truoc[i];
+                a = LineTo(dsve[j+1], dsve[Truoc[j+1]], a, duLieu[j+1, Truoc[j+1]], Color.Red);
+                int i = Truoc[j+1];
+                while (i != j)
+                {
+                    a = LineTo(dsve[i], new PointF(dsve[Truoc[i]].X, dsve[Truoc[i]].Y), a, duLieu[i, Truoc[i]], Color.Red);
+                    i = Truoc[i];
+                }
             }
+            
             return a;
         }
         public Bitmap Line(Bitmap a)
@@ -344,7 +344,7 @@ namespace TimDuongDiNganNhat
             {
                 for (int j = 1; j <= duLieu.GetLength(0); j++)
                 {
-                    if (duLieu[i - 1, j - 1] != 0)
+                    if (duLieu[i - 1, j - 1] > 0)
                     {
                         a = LineTo(dsve[i - 1], dsve[j - 1], a, duLieu[i - 1, j - 1], Color.Green);
 
@@ -427,6 +427,7 @@ namespace TimDuongDiNganNhat
         }
         #endregion
     }
+
 
     public class DuongDi
     {

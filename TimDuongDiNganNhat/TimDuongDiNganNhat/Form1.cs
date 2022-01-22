@@ -21,7 +21,6 @@ namespace TimDuongDiNganNhat
             Application.Exit();
         }
 
-        string file; //Đường dẫn file đang mở hiện tại.
         Dijkstra td; //Khai báo biến tìm đường đi.
 
         private void thucong_Click(object sender, EventArgs e)
@@ -120,6 +119,7 @@ namespace TimDuongDiNganNhat
 
             List<int> kqs = td.TimDuong(dau, cuoi);
             string kq = "";
+
             if (kqs.Count == 0 && dau != cuoi)
             {
                 kq = "Không tồn tại đường đi từ " + dau.ToString() + " tới " + cuoi.ToString();
@@ -143,7 +143,7 @@ namespace TimDuongDiNganNhat
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

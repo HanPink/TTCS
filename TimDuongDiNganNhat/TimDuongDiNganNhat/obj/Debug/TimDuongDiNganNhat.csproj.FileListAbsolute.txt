@@ -10,3 +10,15 @@ D:\Tài liệu các học kỳ\HK1 năm học 2021-2022\Thực tập cơ sở\Ti
 D:\Tài liệu các học kỳ\HK1 năm học 2021-2022\Thực tập cơ sở\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.exe
 D:\Tài liệu các học kỳ\HK1 năm học 2021-2022\Thực tập cơ sở\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.pdb
 D:\Tài liệu các học kỳ\HK1 năm học 2021-2022\Thực tập cơ sở\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.Nhapmatran.resources
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\bin\Debug\TimDuongDiNganNhat.exe.config
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\bin\Debug\TimDuongDiNganNhat.exe
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\bin\Debug\TimDuongDiNganNhat.pdb
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.csproj.AssemblyReference.cache
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.Form1.resources
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.main.resources
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.Nhapmatran.resources
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.Properties.Resources.resources
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.csproj.GenerateResource.cache
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.csproj.CoreCompileInputs.cache
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.exe
+C:\Users\PH Laptop\OneDrive\Desktop\TTCS\TimDuongDiNganNhat\TimDuongDiNganNhat\obj\Debug\TimDuongDiNganNhat.pdb
